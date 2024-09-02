@@ -1,0 +1,67 @@
+
+.butterfly h1{
+    box-shadow: rgba(189, 10, 174, 0.493) 0px 54px 55px, rgba(46, 175, 198, 0.708) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+     rgba(36, 42, 42, 0.817) 0px 12px 13px, rgba(195, 165, 15, 0.589) 0px -3px 5px;
+    }
+.books{
+    margin-top: 100px;
+}
+.books img{
+    height: 200px;
+    width: 10%;
+    padding-left: 10px;
+}
+.books .card{
+    box-shadow: rgba(189, 10, 174, 0.493) 0px 54px 55px, rgba(46, 175, 198, 0.708) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+     rgba(36, 42, 42, 0.817) 0px 12px 13px, rgba(195, 165, 15, 0.589) 0px -3px 5px;
+height: 400px;
+width: 200%;
+margin-top: 10px;
+ }
+ .heart{
+    height: 70px;
+    width: 70px;
+    background: #ee00f2a1;
+    position: absolute;
+    transform: rotate(-45deg);
+    box-shadow:-10px 10px 90px #00f2dae0;
+    animation: heart 0.6s linear infinite;
+    
+}
+@keyframes heart{
+    0%{
+        transform: rotate(-45deg) scale(1.07);
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0);
+    }
+    100%{
+        transform: rotate(-45deg) scale(0.8);
+    }
+    }
+.heart:before{
+    padding-top: 20px;
+    content:'..Munaza';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #f200eaa8;
+    top: -50%;
+    border-radius: 50px;
+    box-shadow:-10px -10px 90px #00eaf2b8;
+}
+.heart:after{
+    padding-top: 20px;
+    content:'..Tayyaba';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: #f200b1c0;
+    right: -50%;
+    border-radius: 50px;
+    box-shadow:10px 10px 90px #011015;
+}
+.love {
+    margin-top: 100px;
+}
+ 
